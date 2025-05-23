@@ -8,6 +8,7 @@ basic:
         - 640
         - 1024
         - 1200
+        - 650
     pages:
         - /
         - /2019/01
@@ -40,7 +41,7 @@ advanced:
     delay: 10
     scroll: false
     headers:
-        - { header: user-agent, value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0' }
+        - { value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0', header: user-agent }
     cookies: ''
     custom_js: ''
     custom_css: ''
